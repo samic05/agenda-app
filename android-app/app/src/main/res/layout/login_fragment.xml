@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              android:gravity="center">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+                android:id="@+id/textView"
+                android:text="Agenda"
+                android:ems="10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textAlignment="center"
+        />
+        <Button
+                android:text="Ver Reuniones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginButton"
+                android:background="@color/red"
+                android:layout_marginTop="10dp"/>
+        <Button
+                android:text="Crear Reunion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerButton"
+                android:background="#000"
+                android:textColor="#FFF"
+                android:layout_marginTop="5dp"
+        />
+    </LinearLayout>
+</LinearLayout>

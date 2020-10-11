@@ -1,0 +1,9 @@
+server:
+  port: 8101
+
+spring:
+  datasource:
+    url: jdbc:postgresql://172.17.0.2:5432/crud_app
+    driver-class-name: org.postgresql.Driver
+    username: "postgres"
+    password: "password1"
